@@ -28,6 +28,7 @@ h3 {
 .main-text {
     text-align: center;
     color: white;
+    font-size: 3rem;
 }
 
 .study-count-container {
@@ -87,4 +88,16 @@ h3 {
     background-color: blue;
     color: white;
     font-weight: bold;
+}
+
+#start:hover {
+    background-color: rgb(0, 88, 0);
+}
+
+#stop:hover {
+    background-color: rgb(113, 3, 3);
+}
+
+#reset:hover {
+    background-color: rgb(2, 2, 97);
 }

@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'roboto', arial;
+}
+
+h3 {
+    color:white
+}
+
+.study-container {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.main-text {
+    text-align: center;
+    color: white;
+}
+
+.study-count-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main-app {
+    border-style: solid;
+    width: 300px;
+    height: 300px;
+    padding: 15%;
+    border-radius: 25px;
+    background-color: rgb(187, 57, 146);
+}
+
+.study-count-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    margin-top: 100px;
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+}
+
+.study-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.study-button {
+    padding: 3px 10px;
+    margin: 5px;
+}
+
+#start {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+#stop {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+#reset {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
